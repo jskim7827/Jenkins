@@ -9,3 +9,4 @@
 
 curl -OLs https://s3.amazonaws.com/amazoncloudwatch-agent/debian/amd64/latest/amazon-cloudwatch-agent.deb 
 
+&& dpkg -i -E ./amazon-cloudwatch-agent.deb
