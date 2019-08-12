@@ -7,5 +7,5 @@
 #./awslogs-agent-setup.py -n -r us-east-1 -c s3://<your-public-bucket-naame>/my-config-file
 
 
-curl -OLs https://s3.amazonaws.com/amazoncloudwatch-agent/debian/amd64/latest/amazon-cloudwatch-agent.deb \
-dpkg -i -E ./amazon-cloudwatch-agent.deb 
+curl -OLs https://s3.amazonaws.com/amazoncloudwatch-agent/debian/amd64/latest/amazon-cloudwatch-agent.deb 
+
